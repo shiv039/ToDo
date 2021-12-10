@@ -1,0 +1,19 @@
+.header {
+    color: snow;
+    position: relative;
+    max-width: 402px;
+  }
+  
+  .title {
+    margin-bottom: 12px;
+  }
+  
+  .taskInfo {
+    align-items: center;
+    display: flex;
+  }
+  
+  .remaining {
+    margin-right: 12px;
+  }
+  

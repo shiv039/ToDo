@@ -1,0 +1,44 @@
+.taskAdd {
+    margin-bottom: 54px;
+    max-width: 402px;
+    position: relative;
+  }
+  
+  .input {
+    background: black;
+    border: 1px solid var(--color-space-gray);
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+    color: snow;
+    height: 42px;
+    font-size: 16px;
+    padding: 12px;
+    width: calc(100% - 60px);
+  }
+  
+  .input:focus {
+    outline: none;
+    border: 1px solid deepskyblue;
+  }
+  
+  .input::placeholder {
+    color: var(--color-space-gray);
+    font-size: 14px;
+  }
+  
+  .button {
+    background: var(--color-dark-charcoal);
+    border: none;
+    border-radius: 0 4px 4px 0;
+    color: white;
+    cursor: pointer;
+    font: 500 14px 'Montserrat', sans-serif;
+    height: 42px;
+    line-height: 42px;
+    position: absolute;
+    right: 0;
+    text-transform: uppercase;
+    top: 0;
+    width: 60px;
+  }
+  

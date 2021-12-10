@@ -1,0 +1,61 @@
+.list {
+    list-style: none;
+    margin: 0;
+    max-width: 800px;
+    padding: 0;
+  }
+  
+  .task {
+    align-items: center;
+    background: black;
+    border-radius: 4px;
+    color: snow;
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    margin-bottom: 6px;
+    padding: 0 24px;
+    position: relative;
+  }
+  
+  li.done {
+    background: var(--color-dark-charcoal);
+    color: snow;
+  }
+  
+  .done .taskName {
+    text-decoration: line-through;
+  }
+  
+  .taskInfo {
+    align-items: center;
+    display: flex;
+  }
+  
+  .taskName {
+    display: inline-block;
+    margin: 0;
+  }
+  
+  .emptyList {
+    background: black;
+    border-radius: 4px;
+    color: snow;
+    padding: 12px;
+  }
+  
+  .emptyListIcon {
+    margin-right: 6px;
+  }
+  
+  .completeButton {
+    color: azure;
+    font-size: 24px;
+    margin-right: 12px;
+  }
+  
+  .deleteButton {
+    color: snow;
+    font-size: 18px;
+  }
+  
